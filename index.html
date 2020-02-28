@@ -1,0 +1,91 @@
+<html>
+<head>
+
+    <meta charset = "UTF-8">
+    <title>Parking App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    
+</head>
+    <body>
+        <nav class="nav">
+            <div class="links">
+                <img src="https://img.icons8.com/nolan/64/home-page.png" class="home">
+                <a href="#">Home</a>
+                <a href="#">Login</a>
+                <a href="#">Signup</a>
+                <a href="#">Parking-Slots</a>
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h3>Parking Web App</h3>
+                <button class="btn btn-md btn-primary book">Book Slots</button>
+            </div>
+            <div class="banner-img">
+                <img src="img/parking.png" alt="mobile">
+                <div class="booking-box">
+                    <h3>Blocks in your parking slot</h3>
+                    <div class="slots">A1</div>
+                    <div class="slots">A2</div>
+                    <div class="slots">A3</div>
+                    <div class="slots">A4</div>
+                    <div class="slots">A5</div>
+                    <div class="slots">A6</div>
+                    <div class="slots">A7</div>
+                    <div class="slots">A8</div>
+                    <div class="slots">B1</div>
+                    <div class="slots">B2</div>
+                    <div class="slots">B3</div>
+                    <div class="slots">B4</div>
+                    <div class="slots">B5</div>
+                    <div class="slots">B6</div>
+                    <div class="slots">B7</div>
+                    <button class="btn btn-sm btn-primary">Submit</button>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div class="features">
+            <div class="subfeature">
+                <img src="https://img.icons8.com/nolan/64/worldwide-location.png" class="f-icon">
+                <div class="content">
+                    <h3>Anywhere, Whereever</h3>
+                    <p>Choose any place anywhere in India</p>
+                </div>
+            </div>
+            <div class="subfeature">
+                <img src="https://img.icons8.com/nolan/64/clock.png" class="f-icon">
+                <div class="content">
+                    <h3>Anytime, On Demand</h3>
+                    <p>Book anytime. 24 hours available 7 day/week</p>
+                </div>
+            </div>
+            <div class="subfeature">
+                <img src="https://img.icons8.com/nolan/64/money.png" class="f-icon">
+                <div class="content">
+                    <h3>Minimal Cost</h3>
+                    <p>Parking cost is very less</p>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <script>
+            
+            $("document").ready(()=>{
+                $(".book").click(()=>{
+                    $(".booking-box").toggleClass("active");
+                })
+            
+            })
+
+        </script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

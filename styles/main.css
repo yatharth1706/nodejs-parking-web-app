@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    padding: 18px 18px;
+}
+
+.links{
+    margin: 0 auto;
+    width: 400px;
+}
+
+.home{
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 10;
+    left: 10;
+}
+
+.banner{
+    display: flex;
+    height: 400px;
+}
+
+.banner-content{
+    text-align: center;
+    padding: 28px 18px;
+    background-color: black;
+    color: white;
+}
+
+.banner-content>h3{
+    margin-top: 100px;
+}
+
+.banner>div{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    padding: 18px 18px;
+}
+
+.banner-img>img{
+    margin-top: 0px;
+    width: 80%;
+    height: 100%;
+}
+
+.features{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    padding: 40px 10px;
+}
+
+.subfeature{
+    width: 33%;
+    text-align: center;
+
+}
+
+
+
+.nav>.links>a{
+    font-size: 17px;
+    text-decoration: none;
+    margin: 2px 10px;
+    color: white;
+}
+
+.content{
+    color: white;
+    padding: 20px 10px;
+}
+
+h3{
+    padding: 10px 10px;
+}
+
+.booking-box{
+    width: 518px;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    top: 80;
+    left: -100;
+    transition: 3s all;
+    display: none;
+}
+
+.booking-box>h3{
+    color: white;
+    text-align: center;
+}
+
+.slots{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px 10px;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.active{
+    display: block;
+    left: 690;
+}
